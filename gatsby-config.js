@@ -16,6 +16,38 @@ module.exports = {
     linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
     // Content of the About Me section
     about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+     education: [
+      {
+        name: 'Languages & Frameworks',
+        description:
+          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+      },
+      {
+        name: 'Databases',
+        description: 'MongoDB, PostreSQL, MySQL',
+      },
+      {
+        name: 'Other',
+        description:
+          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+      },
+    ],
+    awards: [
+      {
+        name: 'Languages & Frameworks',
+        description:
+          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+      },
+      {
+        name: 'Databases',
+        description: 'MongoDB, PostreSQL, MySQL',
+      },
+      {
+        name: 'Other',
+        description:
+          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+      },
+    ],
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -69,23 +101,7 @@ module.exports = {
         description:
           'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
       },
-    ],
-        awards: [
-      {
-        name: 'Languages & Frameworks',
-        description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
-      },
-      {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
-      },
-      {
-        name: 'Other',
-        description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
-      },
-    ],
+    ]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
