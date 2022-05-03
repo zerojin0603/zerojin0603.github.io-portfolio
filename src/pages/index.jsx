@@ -58,7 +58,6 @@ export const pageQuery = graphql`
         projects {
           name
           description
-          link
         }
         experience {
           name
