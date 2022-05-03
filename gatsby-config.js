@@ -19,16 +19,14 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: '딥러닝 기반 히든채널 사이버 범죄 모니터링(DEEPOLICE)',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          '디스코드, 텔레그램, 트위터(이하 히든채널)에서 발생하는 다양한 유형의 사이버 범죄를 모니터링하여 최종적으로 사이버 범죄 예방에 기여하는 것을 목표로 하는 프로젝트. \n 히든채널의 대화들을 크롤링하여 전처리 작업을 거친 텍스트 데이터를 기반으로 자연어처리 모델을 학습시켜 범죄와의 연관도를 계산한다. \n 전처리 작업과 모델의 fine-tuning을 담당하였다. ',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'CodeQL을 이용한 소스코드 취약점 분석',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          '오픈소스 소프트웨어들은 크기가 크고 복잡하며 다양한 언어로 이루어져 있어 직접 버그를 찾기에 어려움이 있습니다. \n이에 CodeQL을 사용하여 오픈소스 sw 소스코드의 취약점을 분석하는 연구를 진행하였습니다. \nCodeQL을 이용해 소스코드를 분석하는 쿼리를 작성하는 과정에서 기존에 알려진 취약한 코드들을 리뷰하며 다양한 취약점의 기본원리에 대한 개념을 쌓을 수 있었습니다',
       },
       {
         name: 'Another Cool Project',
