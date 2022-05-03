@@ -5,6 +5,8 @@ import React from 'react';
 import Header from '../components/header';
 import Layout from '../components/layout';
 import SectionAbout from '../components/section-about';
+import SectionAwards from '../components/section-awards';
+import SectionEducation from '../components/section-education';
 import SectionBlog from '../components/section-blog';
 import SectionExperience from '../components/section-experience';
 import SectionProjects from '../components/section-projects';
@@ -13,6 +15,8 @@ import SEO from '../components/seo';
 
 const Index = ({ data }) => {
   const about = get(data, 'site.siteMetadata.about', false);
+  const awards = get(data, 'site.siteMetadata.awards', false);
+  const education = get(data, 'site.siteMetadata.education', false);
   const projects = get(data, 'site.siteMetadata.projects', false);
   const posts = data.allMarkdownRemark.edges;
   const experience = get(data, 'site.siteMetadata.experience', false);
@@ -24,6 +28,8 @@ const Index = ({ data }) => {
       <SEO />
       <Header metadata={data.site.siteMetadata} noBlog={noBlog} />
       {about && <SectionAbout about={about} />}
+      {awards && awards.length && <SectionAwards awards={awards} />}
+      {education && education.length && <SectionEducation education={education} />}      
       {projects && projects.length && <SectionProjects projects={projects} />}
       {!noBlog && <SectionBlog posts={posts} />}
       {experience && experience.length && (
