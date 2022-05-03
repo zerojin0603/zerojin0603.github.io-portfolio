@@ -3,15 +3,15 @@ module.exports = {
     // Site URL for when it goes live
     siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Youngjin Kwon',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Youngjin Kwon | Full-Stack Developer`,
     // Description that goes under your name in main bio
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
     // Optional: Twitter account handle
     author: `@rfitzio`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/zerojin0603`,
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
     // Content of the About Me section
@@ -57,6 +57,22 @@ module.exports = {
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
+      {
+        name: 'Languages & Frameworks',
+        description:
+          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+      },
+      {
+        name: 'Databases',
+        description: 'MongoDB, PostreSQL, MySQL',
+      },
+      {
+        name: 'Other',
+        description:
+          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+      },
+    ],
+        awards: [
       {
         name: 'Languages & Frameworks',
         description:
