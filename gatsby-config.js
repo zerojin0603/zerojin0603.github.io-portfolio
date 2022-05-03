@@ -18,35 +18,25 @@ module.exports = {
     about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
      education: [
       {
-        name: 'Languages & Frameworks',
+        name: '목동고등학교',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'March 2015 ~ February 2018',
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
-      },
-      {
-        name: 'Other',
-        description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
-      },
+        name: '고려대학교',
+        description: ' 컴퓨터학과 정보보호융합전공, March 2018 ~ February 2022',
+      }
     ],
     awards: [
       {
-        name: 'Languages & Frameworks',
+        name: '고려대학교 캡스톤 디자인 우수상',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          '2022.03 ',
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
-      },
-      {
-        name: 'Other',
-        description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
-      },
+        name: '한국정보처리학회 동계학술대회 장려상',
+        description: '2021.01',
+      }
     ],
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
@@ -70,17 +60,27 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
+        name: 'Nexon Korea',
+        description: 'Security Engineer Internship, October 2021 - April 2022',
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
+        name: 'Best of the Best 10th top 30',
+        description: 'Digital Forensics Track, July 2021 - March 2022',
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {
-        name: 'Hooli',
+        name: 'DFRC',
+        description: 'Lab Intern, May 2015 - December 2017',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
+      },
+      {
+        name: 'CSS Lab',
+        description: 'Lab Intern, May 2015 - December 2017',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
+      },
+      {
+        name: 'Stealian Security Leader 1st',
         description: 'Full-Stack Developer, May 2015 - December 2017',
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
