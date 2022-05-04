@@ -18,13 +18,13 @@ module.exports = {
     about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
      education: [
       {
+        name: '고려대학교',
+        description: ' 컴퓨터학과 정보보호융합전공, March 2018 ~ February 2022',
+      },       
+      {
         name: '목동고등학교',
         description:
           'March 2015 ~ February 2018',
-      },
-      {
-        name: '고려대학교',
-        description: ' 컴퓨터학과 정보보호융합전공, March 2018 ~ February 2022',
       }
     ],
     awards: [
